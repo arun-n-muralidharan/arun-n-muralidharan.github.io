@@ -1,13 +1,10 @@
 import './App.css';
+import AMWave from './components/AMWave.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Arun N. Muralidharan
-        </p>
-      </header>
+      <AMWave />
     </div>
   );
 }
